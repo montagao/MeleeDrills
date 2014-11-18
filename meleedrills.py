@@ -67,4 +67,4 @@ except:
 try:
 	os.system('pause')
 except:
-	print"Lazar"
+	print"Lazar\n"
