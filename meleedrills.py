@@ -10,7 +10,7 @@ drill_shielddrop = "\n\nPractice shield dropping on battlefield\n"
 drill_ledgestall = "\n\nPractice ledgestalling(up-b stall)\n"
 drill_SHL = "\n\nPractice short hop laser\n"
 drill_ledgeairs = "\n\nAerials off of a ledge\n"
-drill_handstretch = "\n\nStretch your hands: \n1. Grab fingers and turn hand inward\n2. Put hand flat in front of you\n 3. Tilt them down \n 4. Grab your thumbs and push forward \n 5. Push hand on wall and pull on thumb\n\n"
+drill_handstretch = "\n\nStretch your hands: \n1. Grab fingers and turn hand inward\n2. Put hand flat in front of you\n3. Tilt them down \n4. Grab your thumbs and push forward \n5. Push hand on wall and pull on thumb\n\n"
 
 
 
@@ -45,7 +45,7 @@ try:
 	getch()
 
 	total_time = 0
-	
+
 	drill_timer(drill_handstretch,120)
 	total_time += drill_timer(drill_shuffl,120) 
 	drill_cooldown("Waveshine Practice")
